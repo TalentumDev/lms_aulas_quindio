@@ -103,7 +103,7 @@ services:
       - aulas-steam-net
 
   moodle:
-    image: bilinguismotalentum/php74-apache2:1.1.0
+    image: bilinguismotalentum/php74-apache2:1.1.0-redis
     container_name: aulas_quindio_moodle
     restart: always
     extra_hosts:
